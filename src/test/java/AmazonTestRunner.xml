@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon App running on Select Browser">
+
+    <parameter name="url" value="http://www.amazon.com"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name ="useCloudEnv" value ="false"/>
+
+    <test name="Amazon HomePage">
+
+        <classes>
+            <class name="aHomePage.Login"/>
+            <class name="aHomePage.Video"/>
+        </classes>
+
+    </test>
+
+</suite>

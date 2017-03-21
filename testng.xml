@@ -1,0 +1,15 @@
+<suite name="MultiThreading TestSuite" parallel="classes" thread-count="2">
+
+<test name = "Tutorial Multithreading:">
+	<classes>
+		<class name="amazonHomePage.Login">
+		
+		</class>
+		<class name="amazonHomePage.Video">
+		</class>
+		
+		
+	</classes>
+</test>
+
+</suite>
